@@ -27,11 +27,18 @@ body {
   color: black;
 }
 
+.image-wrapper {
+  padding-left: 125px;
+}
+
 .self-picture {
   border-radius: 400px;
   -webkit-filter: blur(5px);
   /* Safari 6.0 - 9.0 */
   filter: blur(5px);
+  width: 300px;
+  height: 400px;
+
 }
 
 .self-picture:hover {
@@ -84,4 +91,58 @@ footer {
 
 .work-wrapper {
   background-color: rgb(202, 179, 135);
+}
+
+.about-wrapper {
+  background-color: rgb(202, 179, 135);
+  ;
+}
+
+.hobbies-wrapper {
+  background-color: rgb(202, 179, 135);
+}
+
+.hobbies-table {
+  width: 60%;
+}
+
+.hobbies-table ul {
+  list-style: none;
+  width: 20%;
+}
+
+.hobbies-table li {
+  border: 5px;
+  padding: 8px 16px;
+  border-bottom: 1px solid #000000;
+  border-right: 1px solid #000000;
+  list-style: none;
+  font-size: 1vw;
+}
+
+.hvr-box-shadow-inset {
+  display: flex;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.6), 0 0 1px rgba(0, 0, 0, 0);
+  /* Hack to improve aliasing on mobile/tablet devices */
+}
+
+.hvr-box-shadow-inset:hover,
+.hvr-box-shadow-inset:focus,
+.hvr-box-shadow-inset:active {
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.6), 0 0 1px rgba(0, 0, 0, 0);
+  /* Hack to improve aliasing on mobile/tablet devices */
+}
+
+.carousel {
+  width: 300px;
+  height: 300px;
+
 }

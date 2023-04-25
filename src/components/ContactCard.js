@@ -6,9 +6,9 @@ const ContactCard = () => {
 
 
         <div className='contact-card pt-5 '>
-            <h3 className='contact-title'>Work? Just want to chat? Hit me up!</h3>
+            <h3 className='contact-title text-dark'>Work? Just want to chat? Hit me up!</h3>
 
-            <form className=' contact-form d-flex flex-column gap-15' >
+            <form className=' contact-form d-flex flex-column gap-15 p-3' >
                 <div>
                     <input type='text' className='form-control' placeholder='Name'></input>
                 </div>
@@ -22,7 +22,7 @@ const ContactCard = () => {
                     <textarea name='message' id='' className='w-100 form-control' cols='30' rows='10' placeholder='Your message' ></textarea>
                 </div>
                 <div>
-                    <button type="button" class="btn btn-outline-light">Send</button>
+                    <button type="button" class="btn btn-outline-dark">Send</button>
                 </div>
             </form>
         </div>

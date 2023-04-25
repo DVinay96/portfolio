@@ -1,5 +1,6 @@
 import React from 'react'
 import Marquee from 'react-fast-marquee'
+import { NavLink } from 'react-router-dom'
 
 const Home = () => {
     return (
@@ -7,22 +8,22 @@ const Home = () => {
             <section className="home-wrapper-1 pb-5">
                 <div className="container-xxl intro">
                     <div className="row d-flex justify-content-center align-items-center py-5">
-                        <div className="col-6 row w-25  "><img src="images/main.JPG" alt="self" className='self-picture border border-dark' /></div>
-                        <div className="col-6 w-74 my-5 ps-5 ms-5 ">
-                            <p>Hello! <br />
+                        <div className=" image-wrapper col-6 d-flex justify-content-center"><img src="images/main.JPG" alt="self" className='self-picture border border-dark' /></div>
+                        <div className="col-6 pe-5">
+                            <p className='text-start'>Hello! <br />
                                 My name is Daniel Vinay. I'm a FullStack software developer & freelance web developer located in Puebla, México. <br />
                                 Currently freelancing and creating a restaurant I'm always down for new projects, new experiences and pushing myself to learn new things. <br />
                                 My freelance web development roots are in MERN Stack which I started at UTEL in 2022. Since then, I fell in love with & have been primarily using React in web applications.</p>
                         </div>
                     </div>
-                    <div className="row justify-content-around">
-                        <div className="col-6 d-flex flex-column justify-content-center">
+                    <div className="row justify-content-center">
+                        <div className="col-5 d-flex flex-column justify-content-between">
                             <p className='d-flex justify-content-center'>If you want to know a little more about me:</p>
-                            <button type="button" class="btn btn-outline-dark">Click this button</button>
+                            <NavLink to={'/about'} className='d-flex justify-content-center text-dark'>   <button type="button" class="btn btn-outline-dark"> Click this button</button> </NavLink>
                         </div>
-                        <div className="col-6 col-6 d-flex flex-column justify-content-center">
+                        <div className="col-5 d-flex flex-column justify-content-center">
                             <p className='d-flex justify-content-center'>If you want to check out my awesome sneaker blog:</p>
-                            <button type="button" class="btn btn-outline-dark">Click this other button</button>
+                            <NavLink className='d-flex justify-content-center text-dark'>   <button type="button" class="btn btn-outline-dark"> Click this other button</button> </NavLink>
                         </div>
                     </div>
                 </div>
