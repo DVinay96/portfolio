@@ -45,22 +45,22 @@ const Home = () => {
                             <div className='marquee-inner-wrapper card-wrapper'>
                                 <Marquee className='d-flex'>
                                     <div className='mx-4 w-25'>
-                                        <img src='images/javascript.jpg' alt='brand' />
+                                        <img src={require('../images/javascript.jpg')} alt='javascript' />
                                     </div>
                                     <div className='mx-4 w-25'>
-                                        <img src='images/react.png' alt='brand' />
+                                        <img src={require('../images/react.png')} alt='brand' />
                                     </div>
                                     <div className='mx-4 w-25'>
-                                        <img src='images/node.png' alt='brand' />
+                                        <img src={require('../images/node.png')} alt='brand' />
                                     </div>
                                     <div className='mx-4 w-25'>
-                                        <img src='images/mongo.png' alt='brand' />
+                                        <img src={require('../images/mongo.png')} alt='brand' />
                                     </div>
                                     <div className='mx-4 w-25'>
-                                        <img src='images/express.png' alt='brand' />
+                                        <img src={require('../images/express.png')} alt='brand' />
                                     </div>
                                     <div className='mx-4 w-25'>
-                                        <img src='images/bootstrap.png' alt='brand' />
+                                        <img src={require('../images/bootstrap.png')} alt='brand' />
                                     </div>
                                 </Marquee>
                             </div>
