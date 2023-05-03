@@ -7,9 +7,9 @@ const Home = () => {
         <>
             <section className="home-wrapper-1 pb-5">
                 <div className="container-xxl intro">
-                    <div className="row d-flex justify-content-center align-items-center py-5">
-                        <div className=" image-wrapper col-6 d-flex justify-content-center"><img src={require('../images/main.JPG')} alt="self" className='self-picture border border-dark' /></div>
-                        <div className="col-6 pe-5">
+                    <div className="row d-flex justify-content-center align-items-center py-5 ps-5">
+                        <div className=" image-wrapper col-4 d-flex justify-content-center px-5"><img src={require('../images/main.JPG')} alt="self" className='self-picture border border-dark' /></div>
+                        <div className="col-6 ps-5">
                             <p className='text-start'>Hello! <br />
                                 My name is Daniel Vinay. I'm a FullStack software developer & freelance web developer located in Puebla, México. <br />
                                 Currently freelancing and creating a restaurant I'm always down for new projects, new experiences and pushing myself to learn new things. <br />
